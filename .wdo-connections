@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="IceCreamDBConnection">
+    <development xsi:type="connections:rsc-live-connection" id="IceCreamDBConnection_dev" name="IceCreamDBConnection"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="${DERBY_JDBC_DRIVER_PATH}/derby.jar" id="IceCreamDBConnection_runtime" classname="org.apache.derby.jdbc.EmbeddedConnectionPoolDataSource" database-location="C:\Users\AJ\DBWorkspace\IceCreamDBConnection" database-name="IceCreamDBConnection" jndi-name="jdbc/IceCreamDBConnection" resource-reference-name="IceCreamDBConnection" server-name="derby:C:\Users\AJ\DBWorkspace\IceCreamDBConnection" sql-vendor-type="50" userid="admin"/>
+  </connection>
+</connections:connections>
